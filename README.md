@@ -30,3 +30,5 @@ Proyek ini dibuat untuk:
 - Fitur keranjang belanja
 - Backend sederhana
 
+### Demo
+[LokaStore Live Preview](https://felienz.github.io/LokaStore/)

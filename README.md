@@ -8,6 +8,7 @@ LokaStore adalah aplikasi katalog produk sederhana berbasis web. Proyek ini dibu
 - Mengambil dan menampilkan data produk dari FakeStore API
 - Layout responsif menggunakan media query
 - Tampilan produk dinamis berdasarkan kategori
+- Pencarian produk dengan keyword (English) 
 
 ## Tujuan Pembuatan
 

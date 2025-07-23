@@ -6,12 +6,9 @@ export const dataDrawer = [
      title:  "Best Sale",  
     },
     {id: 3,
-     title:  "Most Liked", 
-    },
-    {id: 4,
      title:  "New Products", 
     },
-    {id: 5,
+    {id: 4,
      title:  "Your Wishlist"
     }
 ]

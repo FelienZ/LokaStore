@@ -1,6 +1,8 @@
-import RefOud from '../assets/pic/Kahf-RO.png'
-import Humbling from '../assets/pic/Kahf-Humbling-Forest.png'
-import Waterfall from '../assets/pic/kahf-wf.png'
+import RefOud from '../assets/pic/EDT-RO.png'
+import Humbling from '../assets/pic/EDT-Humbling.png'
+import Waterfall from '../assets/pic/EDT-WF.png'
+import Sage from '../assets/pic/FW-sage.png'
+import Revered from '../assets/pic/EDP-RO.png'
 
 const tags = [
     {
@@ -41,6 +43,24 @@ const dataBestSale = [
                 type:"Eau De Parfume",
                 desc: "Perfume with notes of oud, amber, vanilla, and rose, evoking tradition and sweet memories.",
                 url: RefOud,
+                Rating: 5.0,
+                Price: 150000
+            },
+            {
+                id: 4,
+                title: 'Kahf FW - Oil and Acne Care',
+                type:"Face Wash",
+                desc: "Men’s face wash for oily and acne-prone skin, hydrates while removing excess oil.",
+                url: Sage,
+                Rating: 5.0,
+                Price: 40000
+            },
+            {
+                id: 5,
+                title: 'Kahf EDP - Revered Oud',
+                type:"Eau De Parfume",
+                desc: "Men’s perfume with a slightly spicy and sweet blend of saffron, oud, mandarin, and long-lasting wood",
+                url: Revered,
                 Rating: 5.0,
                 Price: 150000
             },

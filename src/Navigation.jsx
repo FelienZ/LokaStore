@@ -66,20 +66,20 @@ export default function Navigation(){
             </div>
 
              <ul className={`navigasi max-sm:w-full max-sm:flex-col max-sm:${menuVisibility ? 'flex' : 'hidden'}  max-sm:bg-[#3B4321] max-sm:justify-center text-center max-sm:top-15 max-sm:absolute max-sm:z-40 w-fit gap-5  md:gap-10 p-2 md:flex md:flex-row items-center hidden`}>
-                <li>Home</li>
-                <li>Explore</li>
-                <li>Library</li>
+                <li className='cursor-pointer hover:text-[#90a668]'>Home</li>
+                <li className='cursor-pointer hover:text-[#90a668]'>Explore</li>
+                <li className='cursor-pointer hover:text-[#90a668]'>Library</li>
             </ul>
             <div className="dataField flex gap-2 max-sm:px-2 items-center text-gray-50">
-            <input type="text" name="cariJudul" placeholder='Cari Barang' ref={inputReference} className={`input inputUser text-center bg-white xl:w-100 w-70 text-gray-800 max-sm:${inputVisibility ? 'flex':'hidden' } max-sm:absolute max-sm:left-6 max-sm:w-[40%] rounded-full text-center" placeholder="Cari Produk`} />
+            <input type="text" name="cariJudul" placeholder='Cari Barang' ref={inputReference} className={`input inputUser text-center bg-white xl:w-100 w-70 text-gray-800 max-sm:${inputVisibility ? 'flex':'hidden' } max-sm:absolute max-sm:left-6 max-sm:max-w-[40%] rounded-full text-center" placeholder="Cari Produk`} />
             <div onClick={toggleBtnSearch} className={`logoSearch btn btn-circle border-none p-3 max-sm:p-2 bg-[#6A7452] flex items-center justify-center rounded-full`}>
                 <FontAwesomeIcon icon={faMagnifyingGlass} className='size-4'/>
             </div>    
-            <div className="logoUser dropdown btn btn-circle p-3 bg-[#6A7452] border-none flex items-center justify-center rounded-full">
-                <FontAwesomeIcon tabIndex={0} role="button" icon={faUser} className='size-4 '/>
+            <div tabIndex={0} role="button" className="logoUser dropdown btn btn-circle p-3 bg-[#6A7452] border-none flex items-center justify-center rounded-full">
+                <FontAwesomeIcon icon={faUser} className='size-4 '/>
             <ul tabIndex={0} className="dropdown-content menu bg-[#6A7452] mt-40 rounded-box z-20 w-40 p-2 shadow-sm">
-                <li><a>Item 1</a></li>
-                <li><a>Item 2</a></li>
+                <li><a>Profile</a></li>
+                <li><a>Pengaturan</a></li>
             </ul>
             </div>
             <div onClick={toggleBtnMenu} ref={menuReference} className="logoBars btn btn-circle border-none p-3 max-sm:p-2 bg-[#6A7452] max-sm:flex hidden items-center justify-center rounded-full">

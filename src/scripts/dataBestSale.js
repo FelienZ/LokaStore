@@ -42,7 +42,7 @@ const dataBestSale = [
                 desc: "Perfume with notes of oud, amber, vanilla, and rose, evoking tradition and sweet memories.",
                 url: RefOud,
                 Rating: 5.0,
-                Price: 50000
+                Price: 150000
             },
 ]
 

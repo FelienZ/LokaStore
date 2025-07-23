@@ -15,7 +15,7 @@ const dataNewProducts = [
                 desc: "Men’s perfume with a slightly spicy and sweet blend of saffron, oud, mandarin, and long-lasting wood",
                 url: Saffron,
                 Rating: 5.0,
-                Price: 50000
+                Price: 150000
             },
 ]
 

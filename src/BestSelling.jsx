@@ -3,7 +3,7 @@ import Buttons from "./template/Button"
 import { dataBestSale, tags } from "./scripts/dataBestSale"
 export default function BestSale(){
     return(
-        <section className="flex flex-col gap-2 justify-between">
+        <section id="dataBestSale" className="flex flex-col gap-2 justify-between">
             <p className="text-2xl font-bold text-[#3B4321]">Best Sale</p>
             <div className="button flex gap-2">
             <Buttons dataButton={tags}/>

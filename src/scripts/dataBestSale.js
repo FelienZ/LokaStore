@@ -13,10 +13,7 @@ const tags = [
         id: 2,
         content: "Face Wash"
     },
-    {
-        id: 3,
-        content: "Body Care"
-    }
+
 ]
 const dataBestSale = [
         {

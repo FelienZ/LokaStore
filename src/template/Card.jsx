@@ -2,7 +2,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export default function Card({dataCards}){
     return(
-        <div className="content grid grid-cols-5 w-full xl:gap-5 gap-55 overflow-x-auto">
+        <div className="content grid grid-cols-5 w-full xl:gap-15 gap-55 overflow-x-auto">
             {dataCards.map((data) => (
             <div key={data.id} className="card1 flex flex-col justify-between rounded-md bg-[#DDE3D0]/40 min-w-50 gap-2 text-white p-3">
                 <img src={data.url} alt="Thumbnail" className="h-40 rounded-lg"/>
